@@ -6,13 +6,12 @@ using namespace std;
 
 int main(){
 
-   string s;
-   
-   cin >> s;
+    string s;
+    cin >> s;
 
-   s.append(10,'.'); 
+    reverse(s.begin(), s.end());
 
-   cout << s << endl;
+    cout << s << endl;
 
     return 0;
 }
